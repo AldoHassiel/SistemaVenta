@@ -18,6 +18,7 @@ namespace CapaPresentacion
         public frmUsuarios()
         {
             InitializeComponent();
+            //Cambio remoto
         }
 
         private void frmUsuarios_Load(object sender, EventArgs e)
