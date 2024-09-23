@@ -71,15 +71,38 @@ namespace CapaPresentacion
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
-            dgvdata.Rows.Add(new object[] {"",txtid.Text,txtdocumento.Text,txtnombrecompleto.Text,txtcorreo.Text,txtclave.Text,
-            ((opcionCombo)cborol.SelectedItem).Valor.ToString(),
-             ((opcionCombo)cborol.SelectedItem).Texto.ToString(),
-              ((opcionCombo)cboestado.SelectedItem).Valor.ToString(),
-               ((opcionCombo)cboestado.SelectedItem).Texto.ToString(),
-            });
+            string mensaje = string.Empty;
+            Usuario objusuairo = new Usuario()
+            {
+                IdUsuario = Convert.ToInt32(txtid.Text),
+                Documento = txtdocumento.Text,
+                NombreCompleto = txtnombrecompleto.Text,
+                Correo = txtcorreo.Text,
+                Clave = txtclave.Text,
+                oRol = new Rol()
+                {
+                    IdRol = Convert.ToInt32(((opcionCombo)cborol.SelectedItem).Valor)
+                },
+                Estado = Convert.ToInt32(((opcionCombo)cboestado.SelectedItem).Valor) == 1 ? true : false
+            };
 
-            Limpiar();
+            int idusuariogenerado = new CN_Usuario().Registrar(objusuairo, out mensaje);
 
+            if (idusuariogenerado != 0)
+            {
+                dgvdata.Rows.Add(new object[] {"",idusuariogenerado,txtdocumento.Text,txtnombrecompleto.Text,txtcorreo.Text,txtclave.Text,
+                ((opcionCombo)cborol.SelectedItem).Valor.ToString(),
+                ((opcionCombo)cborol.SelectedItem).Texto.ToString(),
+                ((opcionCombo)cboestado.SelectedItem).Valor.ToString(),
+                ((opcionCombo)cboestado.SelectedItem).Texto.ToString(),
+                });
+                Limpiar();
+
+            }
+            else
+            {
+                MessageBox.Show(mensaje);
+            }
         }
 
         private void Limpiar()
