@@ -54,5 +54,22 @@ namespace CapaPresentacion
             txtclave.Text = "";
             this.Show();
         }
+
+        private void txtdocumento_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                var txtBox = (TextBox)sender;
+                switch (txtBox.Name)
+                {
+                    case "txtdocumento":
+                        txtclave.Focus();
+                        break;
+                    case "txtclave":
+                        txtdocumento.Focus();
+                        break;
+                }
+            }
+        }
     }
 }

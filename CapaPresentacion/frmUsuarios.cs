@@ -18,7 +18,6 @@ namespace CapaPresentacion
         public frmUsuarios()
         {
             InitializeComponent();
-            //Eveboba
         }
 
         private void frmUsuarios_Load(object sender, EventArgs e)
@@ -51,10 +50,7 @@ namespace CapaPresentacion
             cbobusqueda.ValueMember = "Valor";
             cbobusqueda.SelectedIndex = 0;
 
-
-
             //mostrar todos los usuarios
-
             List<Usuario> listaUsuario = new CN_Usuario().Listar();
 
             foreach (var usuario in listaUsuario)
@@ -66,7 +62,6 @@ namespace CapaPresentacion
                 usuario.Estado == true ? "Activo" : "No Activo"
                 });
             }
-
         }
 
         private void btnguardar_Click(object sender, EventArgs e)
@@ -252,6 +247,34 @@ namespace CapaPresentacion
             {
                 row.Visible = true;
             }
+        }
+
+        private void txtdocumento_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                var txtBox = (TextBox)sender;
+                switch (txtBox.Name)
+                {
+                    case "txtdocumento":
+                        txtnombrecompleto.Focus();
+                        break;
+                    case "txtnombrecompleto":
+                        txtcorreo.Focus();
+                        break;
+                    case "txtcorreo":
+                        txtclave.Focus();
+                        break;
+                    case "txtclave":
+                        txtconfirmarclave.Focus();
+                        break;
+                }
+            }
+        }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }

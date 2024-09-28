@@ -3,15 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemadeventa\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemadeventa\\capapresentacion\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB00730D-D202-42C7-B5C1-7EB3394D6C4E}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\aldo\\documents\\sistemadeventa\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,44 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CD_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaDatos\\CD_Usuario.cs",
-              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Usuario.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaDatos\\CD_Usuario.cs",
-              "RelativeToolTip": "..\\CapaDatos\\CD_Usuario.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAkwJAAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:03:25.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmUsuarios.cs",
-              "RelativeDocumentMoniker": "frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmUsuarios.cs",
-              "RelativeToolTip": "frmUsuarios.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAjwP0AAAANAAAAAAAAAA==",
+              "Title": "frmCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs",
+              "RelativeDocumentMoniker": "frmCategorias.cs",
+              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs",
+              "RelativeToolTip": "frmCategorias.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAowNQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T01:51:41.387Z",
+              "WhenOpened": "2024-09-27T18:40:06.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmUsuarios.cs",
-              "RelativeDocumentMoniker": "frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmUsuarios.cs [Dise\u00F1o]",
+              "Title": "frmCategorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs",
+              "RelativeDocumentMoniker": "frmCategorias.cs",
+              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmCategorias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T01:51:34.528Z",
+              "WhenOpened": "2024-09-27T18:29:30.69Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
