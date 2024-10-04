@@ -81,6 +81,11 @@ namespace CapaPresentacion
                 Estado = Convert.ToInt32(((opcionCombo)cboestado.SelectedItem).Valor) == 1 ? true : false
             };
 
+            if (txtclave.Text.Trim().ToUpper() != txtconfirmarclave.Text.Trim().ToUpper())
+            {
+                MessageBox.Show("Las contraseñas no coinciden", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
+                return;
+            }
             if (objusuairo.IdUsuario == 0)
             {
                 int idusuariogenerado = new CN_Usuario().Registrar(objusuairo, out mensaje);

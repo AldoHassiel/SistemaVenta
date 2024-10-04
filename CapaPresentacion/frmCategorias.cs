@@ -177,6 +177,7 @@ namespace CapaPresentacion
                     }
                 }
             }
+           
         }
 
         private void btnbuscar_Click(object sender, EventArgs e)
