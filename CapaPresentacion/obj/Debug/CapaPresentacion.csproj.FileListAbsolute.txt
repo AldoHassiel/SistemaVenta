@@ -100,3 +100,4 @@ C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentaci
 C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategorias.resources
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategorias.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources

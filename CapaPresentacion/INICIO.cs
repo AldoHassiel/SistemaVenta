@@ -120,5 +120,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void subMenuProducto_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconMenuItem)sender, new frmProducto());
+        }
     }
 }
