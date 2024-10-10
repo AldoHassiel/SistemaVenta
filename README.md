@@ -1,4 +1,4 @@
-# Proyecto en GitHub
+# Sistema de punto de venta
 
 ## Requisitos
 
