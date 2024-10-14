@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\",
+  "WorkspaceRootPath": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemadeventa\\capapresentacion\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\david\\documents\\sistemaventa\\capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E3CF88-5EF4-4D8E-96B5-AD75304CAAE6}|..\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\david\\documents\\sistemaventa\\capanegocio\\cn_negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB00730D-D202-42C7-B5C1-7EB3394D6C4E}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\david\\documents\\sistemaventa\\capadatos\\cd_negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E3CF88-5EF4-4D8E-96B5-AD75304CAAE6}|..\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\david\\documents\\sistemaventa\\capanegocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF83BBDE-49F6-44E6-8C2E-57BD1B093CAA}|..\\CapaEntidad\\CapaEntidad.csproj|c:\\users\\david\\documents\\sistemaventa\\capaentidad\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\david\\documents\\sistemaventa\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +51,128 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs",
-              "RelativeDocumentMoniker": "frmCategorias.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs",
-              "RelativeToolTip": "frmCategorias.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAowNQAAAAWAAAAAAAAAA==",
+              "Title": "frmNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmNegocio.cs",
+              "RelativeDocumentMoniker": "frmNegocio.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmNegocio.cs",
+              "RelativeToolTip": "frmNegocio.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAtwGAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T18:40:06.783Z",
+              "WhenOpened": "2024-10-14T18:42:16.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "CN_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaNegocio\\CN_Usuario.cs",
+              "RelativeDocumentMoniker": "..\\CapaNegocio\\CN_Usuario.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaNegocio\\CN_Usuario.cs",
+              "RelativeToolTip": "..\\CapaNegocio\\CN_Usuario.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:26:34.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmCategorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmCategorias.cs",
               "RelativeDocumentMoniker": "frmCategorias.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmCategorias.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmCategorias.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmCategorias.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T18:29:30.69Z",
+              "WhenOpened": "2024-10-14T06:07:03.766Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:48:14.8Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INICIO.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\INICIO.cs",
+              "RelativeDocumentMoniker": "INICIO.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\INICIO.cs",
+              "RelativeToolTip": "INICIO.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAIA8wIEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:43:31.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INICIO.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\INICIO.cs",
+              "RelativeDocumentMoniker": "INICIO.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\INICIO.cs [Dise\u00F1o]",
+              "RelativeToolTip": "INICIO.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:42:02.528Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmNegocio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmNegocio.cs",
+              "RelativeDocumentMoniker": "frmNegocio.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaPresentacion\\frmNegocio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmNegocio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:41:50.206Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CN_Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaNegocio\\CN_Negocio.cs",
+              "RelativeDocumentMoniker": "..\\CapaNegocio\\CN_Negocio.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaNegocio\\CN_Negocio.cs",
+              "RelativeToolTip": "..\\CapaNegocio\\CN_Negocio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:40:43.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaEntidad\\Negocio.cs",
+              "RelativeDocumentMoniker": "..\\CapaEntidad\\Negocio.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaEntidad\\Negocio.cs",
+              "RelativeToolTip": "..\\CapaEntidad\\Negocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:40:32.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CD_Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaDatos\\CD_Negocio.cs",
+              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Negocio.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\SistemaVenta\\CapaDatos\\CD_Negocio.cs",
+              "RelativeToolTip": "..\\CapaDatos\\CD_Negocio.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwIIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:40:16.19Z",
+              "EditorCaption": ""
             }
           ]
         }
