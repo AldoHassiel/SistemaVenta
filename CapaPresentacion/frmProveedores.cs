@@ -41,16 +41,8 @@ namespace CapaPresentacion
             cbobusqueda.ValueMember = "Valor";
             cbobusqueda.SelectedIndex = 0;
 
-            //mostrar todos los usuarios
             List<Proveedor> lista = new CN_Proveedor().Listar();
 
-            //foreach (Cliente item in lista)
-            //{
-            //    dgvdata.Rows.Add(new object[] {"",item.IdCliente, item.Documento, item.NombreCompleto, item.Correo, item.Telefono,
-            //    item.Estado == true ? 1 : 0,
-            //    item.Estado == true ? "Activo" : "No Activo"
-            //    });
-            //}
             foreach (var proveedor in lista)
             {
                 dgvdata.Rows.Add(new object[] {"",proveedor.IdProveedor, proveedor.Documento, proveedor.RazonSocial, proveedor.Correo, proveedor.Telefono,
