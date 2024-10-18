@@ -226,3 +226,9 @@ C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentaci
 C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
 C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProveedor.resources
 C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProducto.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmNegocio.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProducto.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProveedor.resources
