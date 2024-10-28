@@ -291,3 +291,9 @@ C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.dll
+C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xml
