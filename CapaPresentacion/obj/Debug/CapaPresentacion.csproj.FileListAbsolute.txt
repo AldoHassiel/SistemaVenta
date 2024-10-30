@@ -297,3 +297,11 @@ C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xml
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.dll
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xml
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
