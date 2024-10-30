@@ -1,35 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\",
+  "WorkspaceRootPath": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemadeventa\\capapresentacion\\frmdetalleventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetalleventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB00730D-D202-42C7-B5C1-7EB3394D6C4E}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\yucev\\onedrive\\documents\\uadeo\\materias\\sistema de ventas\\sistemaventa\\capadatos\\cd_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\yucev\\onedrive\\documents\\uadeo\\materias\\sistema de ventas\\sistemaventa\\capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\yucev\\onedrive\\documents\\uadeo\\materias\\sistema de ventas\\sistemaventa\\capapresentacion\\frmdetallecompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetallecompra.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\yucev\\onedrive\\documents\\uadeo\\materias\\sistema de ventas\\sistemaventa\\capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E3CF88-5EF4-4D8E-96B5-AD75304CAAE6}|..\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\yucev\\onedrive\\documents\\uadeo\\materias\\sistema de ventas\\sistemaventa\\capanegocio\\cn_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB00730D-D202-42C7-B5C1-7EB3394D6C4E}|..\\CapaDatos\\CapaDatos.csproj|c:\\users\\yucev\\onedrive\\documents\\uadeo\\materias\\sistema de ventas\\sistemaventa\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemadeventa\\capapresentacion\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,108 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmDetalleCompra.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.Designer.cs",
-              "RelativeDocumentMoniker": "frmDetalleCompra.Designer.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.Designer.cs",
-              "RelativeToolTip": "frmDetalleCompra.Designer.cs",
-              "ViewState": "AgIAAGMBAAAAAAAAAAAAAHQBAAA9AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmDetalleVenta.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmDetalleVenta.Designer.cs",
+              "RelativeDocumentMoniker": "frmDetalleVenta.Designer.cs",
+              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmDetalleVenta.Designer.cs",
+              "RelativeToolTip": "frmDetalleVenta.Designer.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAGkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:34:27.149Z",
+              "WhenOpened": "2024-10-30T17:38:57.893Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmDetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeDocumentMoniker": "frmDetalleCompra.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeToolTip": "frmDetalleCompra.cs",
-              "ViewState": "AgIAAGYAAAAAmZmZmZkZwHkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:18:34.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmDetalleCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeDocumentMoniker": "frmDetalleCompra.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmDetalleCompra.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:16:39.916Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CD_Compra.cs",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaDatos\\CD_Compra.cs",
-              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Compra.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaDatos\\CD_Compra.cs",
-              "RelativeToolTip": "..\\CapaDatos\\CD_Compra.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAiwJAAAAAAAAAAAAAAAA==",
+              "Title": "frmDetalleVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmDetalleVenta.cs",
+              "RelativeDocumentMoniker": "frmDetalleVenta.cs",
+              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaDeVenta\\CapaPresentacion\\frmDetalleVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmDetalleVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T16:43:47.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCompras.cs",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmCompras.cs",
-              "RelativeDocumentMoniker": "frmCompras.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmCompras.cs",
-              "RelativeToolTip": "frmCompras.cs",
-              "ViewState": "AgIAAPkAAAAAmpmZmZkRwAMBAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:56:55.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CN_Compra.cs",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaNegocio\\CN_Compra.cs",
-              "RelativeDocumentMoniker": "..\\CapaNegocio\\CN_Compra.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaNegocio\\CN_Compra.cs",
-              "RelativeToolTip": "..\\CapaNegocio\\CN_Compra.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:49:49.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CD_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaDatos\\CD_Usuario.cs",
-              "RelativeDocumentMoniker": "..\\CapaDatos\\CD_Usuario.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaDatos\\CD_Usuario.cs",
-              "RelativeToolTip": "..\\CapaDatos\\CD_Usuario.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:47:33.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmCompras.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmCompras.cs",
-              "RelativeDocumentMoniker": "frmCompras.cs",
-              "ToolTip": "C:\\Users\\yucev\\OneDrive\\Documents\\UAdeO\\Materias\\Sistema de ventas\\SistemaVenta\\CapaPresentacion\\frmCompras.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmCompras.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:56:45.911Z",
+              "WhenOpened": "2024-10-30T17:36:00.689Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

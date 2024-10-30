@@ -305,3 +305,12 @@ C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\itextsharp.xml
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\bin\Debug\itextsharp.dll
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\bin\Debug\itextsharp.xml
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
+C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
