@@ -31,10 +31,10 @@ namespace CapaPresentacion
         {
             List<Permiso> ListaPermiso = new CN_Permiso().Listar(usuarioActual.IdUsuario);
 
-            foreach(IconMenuItem iconMenu in menu.Items)
+            foreach (IconMenuItem iconMenu in menu.Items)
             {
                 bool encontrado = ListaPermiso.Any(m => m.NombreMenu == iconMenu.Name);
-                if(encontrado == false)
+                if (encontrado == false)
                 {
                     iconMenu.Visible = false;
                 }
@@ -45,14 +45,14 @@ namespace CapaPresentacion
 
         private void AbrirFormulario(IconMenuItem menu, Form formulario)
         {
-            if(MenuActivo != null)
+            if (MenuActivo != null)
             {
                 MenuActivo.BackColor = Color.White;
             }
             menu.BackColor = Color.Silver;
             MenuActivo = menu;
 
-            if(FormularioActivo != null)
+            if (FormularioActivo != null)
             {
                 FormularioActivo.Close();
             }
@@ -110,11 +110,6 @@ namespace CapaPresentacion
             AbrirFormulario((IconMenuItem)sender, new frmProveedores());
         }
 
-        private void menuReportes_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario((IconMenuItem)sender, new frmReportes());
-        }
-
         private void menuTitulo_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
@@ -129,6 +124,17 @@ namespace CapaPresentacion
         {
             AbrirFormulario(menuMantenedor, new frmNegocio());
 
+        }
+
+        private void submenureportecompras_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menuReportes, new frmReporteCompras());
+
+        }
+
+        private void submenureporteventas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menuReportes, new frmReporteVentas());
         }
     }
 }

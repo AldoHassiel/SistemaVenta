@@ -22,3 +22,9 @@ C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\rendo\Documents\SistemaVenta\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\rendo\Documents\SistemaVenta\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\rendo\Documents\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\rendo\Documents\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\rendo\Documents\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\rendo\Documents\SistemaVenta\CapaEntidad\obj\Debug\CapaEntidad.pdb
