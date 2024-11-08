@@ -69,7 +69,7 @@
             this.iconPictureBox1.IconColor = System.Drawing.Color.White;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 164;
-            this.iconPictureBox1.Location = new System.Drawing.Point(48, 31);
+            this.iconPictureBox1.Location = new System.Drawing.Point(52, 31);
             this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(181, 164);
