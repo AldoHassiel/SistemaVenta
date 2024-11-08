@@ -316,3 +316,4 @@ C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentaci
 C:\Users\Aldo\Documents\SistemaDeVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmReporteCompras.resources
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdAcercaDe.resources

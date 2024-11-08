@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using FontAwesome.Sharp;
+using CapaPresentacion.Modales;
 namespace CapaPresentacion
 {
     public partial class INICIO : Form
@@ -135,6 +136,20 @@ namespace CapaPresentacion
         private void submenureporteventas_Click(object sender, EventArgs e)
         {
             AbrirFormulario(menuReportes, new frmReporteVentas());
+        }
+
+        private void menuAcercaDe_Click(object sender, EventArgs e)
+        {
+            mdAcercaDe md = new mdAcercaDe();
+            md.ShowDialog();
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea salir?", "Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }
