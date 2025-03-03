@@ -157,6 +157,11 @@ namespace CapaPresentacion
 
         private void btneliminar_Click(object sender, EventArgs e)
         {
+            if (txtdescripcion.Text != "")
+            {
+                txtdescripcion.Text = "";
+                MessageBox.Show("No se puede eliminar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);             
+            }
             if (Convert.ToInt32(txtid.Text) != 0)
             {
                 if (MessageBox.Show("¿Desea eliminar la categoria?", "Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)

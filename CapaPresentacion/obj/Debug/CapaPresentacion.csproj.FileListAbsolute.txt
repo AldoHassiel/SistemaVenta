@@ -317,3 +317,7 @@ C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\SistemaVentasDe
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\SistemaVentasDemo.exe.config
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\SistemaVentasDemo.exe
 C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\SistemaVentasDemo.pdb
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\SistemaVentasDemo.exe.manifest
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\bin\Debug\SistemaVentasDemo.application
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\SistemaVentasDemo.exe.manifest
+C:\Users\rendo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\SistemaVentasDemo.application

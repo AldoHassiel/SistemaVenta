@@ -25,6 +25,11 @@ namespace CapaPresentacion
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
+            if (txtbusqueda.Text == "")
+            {
+                MessageBox.Show("No se puede realizar la búsqueda", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
             Venta oVenta = new CN_Venta().ObtenerVenta(txtbusqueda.Text);
             if(oVenta.IdVenta != 0 )
             {
@@ -50,6 +55,12 @@ namespace CapaPresentacion
 
         private void btnborrar_Click(object sender, EventArgs e)
         {
+            if (txtbusqueda.Text == "")
+            {
+                MessageBox.Show("No se puede limpiar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            txtbusqueda.Text = "";
             txtfecha.Text = "";
             txttipodocumento.Text = "";
             txtusuario.Text = "";
@@ -144,5 +155,7 @@ namespace CapaPresentacion
                 }
             }
         }
+
+     
     }
 }
