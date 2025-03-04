@@ -61,3 +61,12 @@ C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\yucev\OneDrive\Documents\UAdeO\Materias\Sistema de ventas\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Debug\CapaDatos.pdb

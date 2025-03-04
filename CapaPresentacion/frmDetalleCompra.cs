@@ -26,6 +26,11 @@ namespace CapaPresentacion
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
+            if(txtbusqueda.Text == "")
+            {
+                MessageBox.Show("Necesitas proporcionar un número de documento para buscar la compra", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             Compra oCompra = new CN_Compra().ObtenerCompra(txtbusqueda.Text);
             if(oCompra.IdCompra != 0)
             {
@@ -44,6 +49,10 @@ namespace CapaPresentacion
                 }
                 txtmontototal.Text = oCompra.MontoTotal.ToString("0.00");
 
+            }
+            else
+            {
+                MessageBox.Show("No se encontró ninguna compra con ese número de documento", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -133,6 +142,11 @@ namespace CapaPresentacion
                     MessageBox.Show("Documento Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
