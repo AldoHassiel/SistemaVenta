@@ -19,20 +19,23 @@ namespace CapaNegocio
         public int Registrar(Proveedor obj, out string Mensaje)
         {
             Mensaje = string.Empty;
-            if (obj.Documento == "")
+            if (obj.Documento == "" )
             {
                 Mensaje += "Es necesario el documento del Proveedor\n";
             }
-            if (obj.RazonSocial == "")
+            if (obj.RazonSocial.Trim() == "")
             {
                 Mensaje += "Es necesario la razon social del Proveedor\n";
             }
-            if (obj.Correo == "")
+            if (obj.Correo.Trim() == "")
             {
                 Mensaje += "Es necesario el Correo del Proveedor\n";
             }
 
-            if (Mensaje != string.Empty) return 0;
+            if (Mensaje != string.Empty) { 
+                
+                return 0; 
+            }
             else return objcd_Proveedor.Registrar(obj, out Mensaje);
         }
         public bool Editar(Proveedor obj, out string Mensaje)

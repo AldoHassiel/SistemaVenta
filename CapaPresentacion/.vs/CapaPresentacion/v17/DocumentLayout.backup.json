@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemaventa\\capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemaventa\\capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,32 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmDetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeDocumentMoniker": "frmDetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeToolTip": "frmDetalleCompra.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwDEAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:39:27.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmDetalleCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeDocumentMoniker": "frmDetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\frmDetalleCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmDetalleCompra.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:39:24.777Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

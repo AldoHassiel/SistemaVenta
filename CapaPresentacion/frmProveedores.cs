@@ -115,7 +115,7 @@ namespace CapaPresentacion
             if (obj.IdProveedor == 0)
             {
                 int idgenerado = new CN_Proveedor().Registrar(obj, out mensaje);
-
+                
                 if (idgenerado != 0)
                 {
                     dgvdata.Rows.Add(new object[] {"",idgenerado,txtdocumento.Text,txtrazonsocial.Text,txtcorreo.Text,txttelefono.Text,

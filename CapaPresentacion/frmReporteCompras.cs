@@ -2,6 +2,7 @@
 using CapaNegocio;
 using CapaPresentacion.utilidades;
 using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Spreadsheet;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,9 +40,12 @@ namespace CapaPresentacion
             {
                 cbobusqueda.Items.Add(new opcionCombo() { Valor = columna.Name, Texto = columna.HeaderText });
             }
+            
             cbobusqueda.DisplayMember = "Texto";
             cbobusqueda.ValueMember = "Valor";
+            cbobusqueda.Items.RemoveAt(0);
             cbobusqueda.SelectedIndex = 0;
+
         }
 
         private void btnbuscarresultado_Click(object sender, EventArgs e)

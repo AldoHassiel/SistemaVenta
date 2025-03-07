@@ -29,6 +29,7 @@ namespace CapaPresentacion
             }
             cbobusqueda.DisplayMember = "Texto";
             cbobusqueda.ValueMember = "Valor";
+            cbobusqueda.Items.RemoveAt(0);
             cbobusqueda.SelectedIndex = 0;
         }
 
