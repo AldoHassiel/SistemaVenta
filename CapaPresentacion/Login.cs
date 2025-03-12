@@ -66,7 +66,7 @@ namespace CapaPresentacion
                         txtclave.Focus();
                         break;
                     case "txtclave":
-                        txtdocumento.Focus();
+                      btnIngresar .Focus();
                         break;
                 }
             }

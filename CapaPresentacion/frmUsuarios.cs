@@ -11,6 +11,8 @@ using CapaPresentacion.utilidades;
 using CapaEntidad;
 using CapaNegocio;
 using System.Windows.Forms.ComponentModel.Com2Interop;
+using System.Drawing.Text;
+using System.Text.RegularExpressions;
 namespace CapaPresentacion
 {
     public partial class frmUsuarios : Form
@@ -63,8 +65,9 @@ namespace CapaPresentacion
                 });
             }
         }
+        
 
-        private void btnguardar_Click(object sender, EventArgs e)
+    private void btnguardar_Click(object sender, EventArgs e)
         {
             string mensaje = string.Empty;
             Usuario objusuairo = new Usuario()
@@ -80,7 +83,16 @@ namespace CapaPresentacion
                 },
                 Estado = Convert.ToInt32(((opcionCombo)cboestado.SelectedItem).Valor) == 1 ? true : false
             };
+            string email = txtcorreo.Text;
+            if (EsCorreoValido(email))
+            {
 
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingrese un correo electronico valido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             if (txtclave.Text.Trim().ToUpper() != txtconfirmarclave.Text.Trim().ToUpper())
             {
                 MessageBox.Show("Las contraseñas no coinciden", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
@@ -127,11 +139,17 @@ namespace CapaPresentacion
                     MessageBox.Show(mensaje);
                 }
             }
+            
+        }
+        private bool EsCorreoValido(string email)
+        {
+            if (email.Contains("@gmail.com") || email.Contains("@GMAIL.COM")) return true;
+            return false;
         }
 
         private void Limpiar()
         {
-            txtIndice.Text = "-1";
+            txtIndice.Text = " - 1";
             txtid.Text = "0";
             txtdocumento.Text = "";
             txtnombrecompleto.Text = "";
@@ -216,6 +234,7 @@ namespace CapaPresentacion
                     if (respuesta)
                     {
                         dgvdata.Rows.RemoveAt(Convert.ToInt32(txtIndice.Text));
+                        Limpiar();
                     }
                     else
                     {
