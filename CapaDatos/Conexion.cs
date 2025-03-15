@@ -8,7 +8,34 @@ namespace CapaDatos
 {
     public class Conexion
     {
-        public static string cadena = ConfigurationManager.ConnectionStrings["cadena_conexion"].ToString();
-
+        private static string _conexion;
+        public static string cadena { 
+            get {
+                if (HayInternet())
+                {
+                    _conexion = ConfigurationManager.ConnectionStrings["conexion_remota"].ToString();
+                }
+                else
+                {
+                    _conexion = ConfigurationManager.ConnectionStrings["conexion_local"].ToString();
+                }
+                return _conexion;
+            }
+        }
+        private static bool HayInternet()
+        {
+            try
+            {
+                using (var cliente = new System.Net.WebClient())
+                using (cliente.OpenRead("http://www.google.com"))
+                {
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

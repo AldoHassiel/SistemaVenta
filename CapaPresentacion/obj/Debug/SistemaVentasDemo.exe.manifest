@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaDatos.dll" size="30720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaDatos.dll" size="31232">
       <assemblyIdentity name="CapaDatos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ohI0qRIsL43a7MZV4fLy4B4MU5epk31g0Ds/YEZhVLs=</dsig:DigestValue>
+        <dsig:DigestValue>fA/a5aO3It+nTWmYsimM+U0Y3DcFUmMSSahhHPMV3Hc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GvuamztJjmb4oFw6H2jaKg8JKvaQ6MEPTJlDBsZZKSc=</dsig:DigestValue>
+        <dsig:DigestValue>x7ns+EkXjJiyrRpoyWpJIOV39Ix6c8j9rCRQuH0jxP0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -315,13 +315,13 @@
       <dsig:DigestValue>Y4CSJoJ1cxO98TLivzIBq/GYs8e+qeDn8QSsV0nKU0w=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SistemaVentasDemo.exe.config" size="1612">
+  <file name="SistemaVentasDemo.exe.config" size="1795">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>J2zJVS8BH0iqZrT97RG7Zx4rPhk63rtHcl8rI7QSCjY=</dsig:DigestValue>
+      <dsig:DigestValue>Noicc210V3NehelW/G/vz8lNRlu6l30DqOaLGSogBaQ=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
