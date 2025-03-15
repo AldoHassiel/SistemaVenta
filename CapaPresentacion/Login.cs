@@ -31,21 +31,23 @@ namespace CapaPresentacion
             //List<Usuario> TEST = new CN_Usuario().Listar();
             Usuario ousuario = new CN_Usuario().Listar().Where(u => u.Documento == txtdocumento.Text && u.Clave == txtclave.Text).FirstOrDefault();
             
-            if(ousuario != null)
-            {
-                INICIO form = new INICIO(ousuario);
-
-                form.Show();
-                this.Hide();
-
-                form.FormClosing += frm_closing;
-            }
-            else
+            if(ousuario == null)
             {
                 MessageBox.Show("No se encontro el usuario", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
             }
-           
+            if(ousuario.Estado == false)
+            {
+                MessageBox.Show("El usuario está desactivado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
 
+            INICIO form = new INICIO(ousuario);
+
+            form.Show();
+            this.Hide();
+
+            form.FormClosing += frm_closing;
         }
 
         private void frm_closing(object sender, FormClosingEventArgs e)

@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lSxpviInhRWjqOGSdpAzNoDqaikKhl7IvgXulh0X4KU=</dsig:DigestValue>
+        <dsig:DigestValue>ohI0qRIsL43a7MZV4fLy4B4MU5epk31g0Ds/YEZhVLs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JC0OMa9XtAUrq2davRltFDssCwokVRy0h/owm6avhF4=</dsig:DigestValue>
+        <dsig:DigestValue>jTGsFwIIscE7hS8l8iqnfV/5wzfeyBRNX4fid/Wf2Sw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -211,14 +211,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SistemaVentasDemo.exe" size="198568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SistemaVentasDemo.exe" size="199080">
       <assemblyIdentity name="SistemaVentasDemo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HdzKmDwe/RBHynZXBVeFDvKAJvR49vdf+KFXKjgpsTY=</dsig:DigestValue>
+        <dsig:DigestValue>otv7CQFfxAaA0jRLa65IsQgYBLgmAlIcl3CLmu062bs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
