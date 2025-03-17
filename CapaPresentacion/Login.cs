@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaEntidad;
 using CapaNegocio;
@@ -14,26 +9,40 @@ namespace CapaPresentacion
 {
     public partial class Login : Form
     {
-        private static int intentosFallidos;
-        private static DateTime FechaDesbloqueo;
-        private static Timer temporizador;
-        private static TimeSpan tiempoDeEspera;
+        private const int INTENTOS_PERMITIDOS = 5;
+        private int _intentosFallidos;
+        private DateTime _fechaDesbloqueo;
+        private Timer _temporizador;
+        private int IntentosFallidos
+        {
+            get => _intentosFallidos;
+            set
+            {
+                _intentosFallidos = value;
+                Properties.Settings.Default.IntentosFallidos = value;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private DateTime FechaDesbloqueo
+        {
+            get => _fechaDesbloqueo;
+            set
+            {
+                _fechaDesbloqueo = value;
+                Properties.Settings.Default.FechaDesbloqueo = value;
+                Properties.Settings.Default.Save();
+            }
+        }
         public Login()
         {
             InitializeComponent();
-            intentosFallidos = Properties.Settings.Default.IntentosFallidos;
-            FechaDesbloqueo = (intentosFallidos == 0) ? DateTime.Now : Properties.Settings.Default.FechaDesbloqueo;
-            if (FechaDesbloqueo > DateTime.Now) btnIngresar.Enabled = false;
-            double tiempo = Properties.Settings.Default.TiempoEspera;
-            if (tiempo > 0)
+            _intentosFallidos = Properties.Settings.Default.IntentosFallidos;
+            _fechaDesbloqueo = (_intentosFallidos > 0) ? Properties.Settings.Default.FechaDesbloqueo : DateTime.Now;
+            if (FechaDesbloqueo > DateTime.Now)
             {
-                temporizador = new Timer();
-                temporizador.Interval = (FechaDesbloqueo - DateTime.Now).Seconds;
-                temporizador.Tick += ActualizarEtiquetaTiempo;
-                temporizador.Start();
+                EsperarUnRatito();
             }
         }
-
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -55,65 +64,58 @@ namespace CapaPresentacion
             }
             if (ousuario.Clave != txtclave.Text)
             {
-                intentosFallidos++;
-                
-                if (intentosFallidos % 3 == 2)
+                IntentosFallidos++;
+                int intentosRestantes = INTENTOS_PERMITIDOS - (IntentosFallidos % INTENTOS_PERMITIDOS);
+
+                if (IntentosFallidos % INTENTOS_PERMITIDOS == 0)
                 {
-                    MessageBox.Show($"Clave incorrecta\nIntento número: {intentosFallidos}\nAl siguiente intento fallido se bloqueará temporalmente el acceso.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    EsperarUnRatito();
+                    MessageBox.Show("Clave incorrecta\nSe ha bloqueado temporalmente el acceso", "Mensaje", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
-                else if (intentosFallidos % 3 == 0)
+                else if (intentosRestantes == 1)
                 {
-                    MessageBox.Show($"Clave incorrecta\nEspere un tiempo", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    EsperarUnTiempito();
+                    MessageBox.Show("Clave incorrecta\nAl siguiente intento fallido se bloqueará temporalmente el acceso", 
+                        "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {
-                    MessageBox.Show($"Clave incorrecta\nIntentalo de nuevo\nIntento número: {intentosFallidos}", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show($"Clave incorrecta\nQuedan {intentosRestantes} intentos antes del bloqueo", 
+                        "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
-
                 return;
             }
-
-            intentosFallidos = 0;
-            Properties.Settings.Default.IntentosFallidos = intentosFallidos;
-            Properties.Settings.Default.Save();
+            IntentosFallidos = 0;
             INICIO form = new INICIO(ousuario);
             form.Show();
             this.Hide();
             form.FormClosing += frm_closing;
         }
-        private void EsperarUnTiempito()
+        private void EsperarUnRatito()
         {
             btnIngresar.Enabled = false;
-            int tiempoDeAumento = Convert.ToInt32(Math.Pow(((intentosFallidos / 3) * 30), 2)) / 60;
-            FechaDesbloqueo = DateTime.Now.AddSeconds(tiempoDeAumento);
-            temporizador = new Timer();
-            temporizador.Interval = tiempoDeAumento;
-            temporizador.Tick += ActualizarEtiquetaTiempo;
+            int bloqueosAnteriores = IntentosFallidos / INTENTOS_PERMITIDOS;
+            int segundosBloqueo = 30 * bloqueosAnteriores * bloqueosAnteriores;
+            FechaDesbloqueo = DateTime.Now.AddSeconds(segundosBloqueo);
 
-            Properties.Settings.Default.FechaDesbloqueo = FechaDesbloqueo;
-            Properties.Settings.Default.IntentosFallidos = intentosFallidos;
-            Properties.Settings.Default.Save();
-
-            temporizador.Start();
+            _temporizador = new Timer();
+            _temporizador.Interval = 1000;
+            _temporizador.Tick += ActualizarInterfaz;
+            _temporizador.Start();
         }
-        private void ActualizarEtiquetaTiempo(Object sender, EventArgs e)
+        private void ActualizarInterfaz(object sender, EventArgs e)
         {
-            tiempoDeEspera = FechaDesbloqueo - DateTime.Now;
-            Properties.Settings.Default.TiempoEspera = tiempoDeEspera.TotalSeconds;
-            Properties.Settings.Default.Save();
-            lblTiempoDeEspera.Text = $"Tiempo de espera: {tiempoDeEspera.Hours}:{tiempoDeEspera.Minutes}:{tiempoDeEspera.Seconds}";
-
-            if (tiempoDeEspera.TotalSeconds <= 0)
+            TimeSpan tiempoRestante = FechaDesbloqueo - DateTime.Now;
+            Properties.Settings.Default.TiempoEspera = tiempoRestante.TotalSeconds;
+            if (tiempoRestante.TotalSeconds <= 0)
             {
-                temporizador.Stop();
-                btnIngresar.Enabled = true;
+                _temporizador.Stop();
                 lblTiempoDeEspera.Text = "";
-
-                FechaDesbloqueo = DateTime.Now;
-                Properties.Settings.Default.FechaDesbloqueo = FechaDesbloqueo;
-                Properties.Settings.Default.Save();
+                btnIngresar.Enabled = true;
+                return;
             }
+            string formato = tiempoRestante.Hours > 0 ? @"hh\:mm\:ss" : @"mm\:ss";
+            lblTiempoDeEspera.Text = $"Tiempo de espera: {tiempoRestante.ToString(formato)}";
         }
         private void frm_closing(object sender, FormClosingEventArgs e)
         {
@@ -121,7 +123,6 @@ namespace CapaPresentacion
             txtclave.Text = "";
             this.Show();
         }
-
         private void txtdocumento_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
