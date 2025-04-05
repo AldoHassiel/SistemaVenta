@@ -1,0 +1,6 @@
+C:\Users\Aldo\Documents\SistemaVenta\CapaEntidad\bin\Release\CapaEntidad.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaEntidad\bin\Release\CapaEntidad.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaEntidad\obj\Release\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Aldo\Documents\SistemaVenta\CapaEntidad\obj\Release\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Aldo\Documents\SistemaVenta\CapaEntidad\obj\Release\CapaEntidad.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaEntidad\obj\Release\CapaEntidad.pdb

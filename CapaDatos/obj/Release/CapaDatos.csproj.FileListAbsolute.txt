@@ -1,0 +1,9 @@
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Release\CapaEntidad.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\bin\Release\CapaEntidad.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Release\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Release\CapaDatos.csproj.Up2Date
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\Aldo\Documents\SistemaVenta\CapaDatos\obj\Release\CapaDatos.pdb

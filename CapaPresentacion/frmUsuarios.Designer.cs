@@ -119,6 +119,7 @@
             // 
             this.txtdocumento.Location = new System.Drawing.Point(9, 47);
             this.txtdocumento.Margin = new System.Windows.Forms.Padding(2);
+            this.txtdocumento.MaxLength = 50;
             this.txtdocumento.Name = "txtdocumento";
             this.txtdocumento.Size = new System.Drawing.Size(209, 20);
             this.txtdocumento.TabIndex = 5;
@@ -128,6 +129,7 @@
             // 
             this.txtnombrecompleto.Location = new System.Drawing.Point(9, 89);
             this.txtnombrecompleto.Margin = new System.Windows.Forms.Padding(2);
+            this.txtnombrecompleto.MaxLength = 50;
             this.txtnombrecompleto.Name = "txtnombrecompleto";
             this.txtnombrecompleto.Size = new System.Drawing.Size(209, 20);
             this.txtnombrecompleto.TabIndex = 6;
@@ -137,6 +139,7 @@
             // 
             this.txtcorreo.Location = new System.Drawing.Point(9, 129);
             this.txtcorreo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtcorreo.MaxLength = 50;
             this.txtcorreo.Name = "txtcorreo";
             this.txtcorreo.Size = new System.Drawing.Size(209, 20);
             this.txtcorreo.TabIndex = 7;
@@ -178,6 +181,7 @@
             // 
             this.txtclave.Location = new System.Drawing.Point(9, 167);
             this.txtclave.Margin = new System.Windows.Forms.Padding(2);
+            this.txtclave.MaxLength = 50;
             this.txtclave.Name = "txtclave";
             this.txtclave.PasswordChar = '*';
             this.txtclave.Size = new System.Drawing.Size(209, 20);
@@ -199,6 +203,7 @@
             // 
             this.txtconfirmarclave.Location = new System.Drawing.Point(9, 205);
             this.txtconfirmarclave.Margin = new System.Windows.Forms.Padding(2);
+            this.txtconfirmarclave.MaxLength = 50;
             this.txtconfirmarclave.Name = "txtconfirmarclave";
             this.txtconfirmarclave.PasswordChar = '*';
             this.txtconfirmarclave.Size = new System.Drawing.Size(209, 20);

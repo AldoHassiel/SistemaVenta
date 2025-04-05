@@ -248,6 +248,7 @@
             // 
             this.txttelefono.Location = new System.Drawing.Point(8, 162);
             this.txttelefono.Margin = new System.Windows.Forms.Padding(2);
+            this.txttelefono.MaxLength = 10;
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(209, 20);
             this.txttelefono.TabIndex = 37;
@@ -267,6 +268,7 @@
             // 
             this.txtcorreo.Location = new System.Drawing.Point(8, 124);
             this.txtcorreo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtcorreo.MaxLength = 50;
             this.txtcorreo.Name = "txtcorreo";
             this.txtcorreo.Size = new System.Drawing.Size(209, 20);
             this.txtcorreo.TabIndex = 35;
@@ -275,6 +277,7 @@
             // 
             this.txtnombrecompleto.Location = new System.Drawing.Point(8, 84);
             this.txtnombrecompleto.Margin = new System.Windows.Forms.Padding(2);
+            this.txtnombrecompleto.MaxLength = 50;
             this.txtnombrecompleto.Name = "txtnombrecompleto";
             this.txtnombrecompleto.Size = new System.Drawing.Size(209, 20);
             this.txtnombrecompleto.TabIndex = 34;
@@ -283,6 +286,7 @@
             // 
             this.txtdocumento.Location = new System.Drawing.Point(8, 42);
             this.txtdocumento.Margin = new System.Windows.Forms.Padding(2);
+            this.txtdocumento.MaxLength = 50;
             this.txtdocumento.Name = "txtdocumento";
             this.txtdocumento.Size = new System.Drawing.Size(209, 20);
             this.txtdocumento.TabIndex = 33;
