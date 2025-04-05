@@ -3,8 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemaventa\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CapaPresentacion||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667ECD28-9DB5-4178-B46F-6F4937F8C20C}|CapaPresentacion.csproj|c:\\users\\aldo\\documents\\sistemaventa\\capapresentacion\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +25,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAA4wGUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:08:22.861Z",
+              "Title": "CapaPresentacion",
+              "DocumentMoniker": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\CapaPresentacion.csproj",
+              "RelativeDocumentMoniker": "CapaPresentacion.csproj",
+              "ToolTip": "C:\\Users\\Aldo\\Documents\\SistemaVenta\\CapaPresentacion\\CapaPresentacion.csproj",
+              "RelativeToolTip": "CapaPresentacion.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-05T05:22:00.984Z",
               "EditorCaption": ""
             }
           ]
