@@ -1,6 +1,6 @@
-# AlyDev - Sistema de Gestión de Ventas
+# Alydev - Sistema de Gestión de Ventas
 
-**AlyDev** es un sistema de ventas desarrollado con **Windows Forms en C#** y **SQL Server Express 2022**, diseñado para gestionar eficientemente inventario, ventas, compras, clientes, proveedores y usuarios con control de roles y permisos.
+**Alydev** es un sistema de ventas desarrollado con **Windows Forms en C#** y **SQL Server Express 2022**, diseñado para gestionar eficientemente inventario, ventas, compras, clientes, proveedores y usuarios con control de roles y permisos.
 
 ## 🚀 Funcionalidades principales
 
