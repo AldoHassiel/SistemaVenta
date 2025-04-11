@@ -469,3 +469,4 @@ C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\Alydev.applicati
 C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\Alydev.exe
 C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\Alydev.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Debug\CapaPresentacion.frmReporteVentas.resources

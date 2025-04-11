@@ -178,6 +178,7 @@
             this.txtidproveedor.Name = "txtidproveedor";
             this.txtidproveedor.Size = new System.Drawing.Size(32, 21);
             this.txtidproveedor.TabIndex = 88;
+            this.txtidproveedor.Visible = false;
             // 
             // label14
             // 
@@ -262,6 +263,7 @@
             this.txtidproducto.Name = "txtidproducto";
             this.txtidproducto.Size = new System.Drawing.Size(32, 20);
             this.txtidproducto.TabIndex = 0;
+            this.txtidproducto.Visible = false;
             // 
             // btnbuscarproducto
             // 

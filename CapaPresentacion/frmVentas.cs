@@ -335,6 +335,11 @@ namespace CapaPresentacion
                 MessageBox.Show("Debe ingresar productos en la venta", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
+            if(Convert.ToDouble(txtpagocon.Text) <= Convert.ToDouble(txttotalpagar.Text))
+            {
+                MessageBox.Show("Debe de ingresar un monto igual o mayor al total a pagar","Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
 
             DataTable detalle_venta = new DataTable();
 

@@ -122,11 +122,11 @@ namespace CapaPresentacion
                 {
                     DataGridViewRow row = dgvdata.Rows[Convert.ToInt32(txtIndice.Text)];
                     row.Cells["Id"].Value = txtid.Text;
-                    row.Cells["Codigo"].Value = txtcodigo.Text;
+                    row.Cells["Código"].Value = txtcodigo.Text;
                     row.Cells["Nombre"].Value = txtnombre.Text;
-                    row.Cells["Descripcion"].Value = txtdescripcion.Text;
-                    row.Cells["IdCategoria"].Value = ((opcionCombo)cbocategoria.SelectedItem).Valor.ToString();
-                    row.Cells["Categoria"].Value = ((opcionCombo)cbocategoria.SelectedItem).Texto.ToString();
+                    row.Cells["Descripción"].Value = txtdescripcion.Text;
+                    row.Cells["IdCategoría"].Value = ((opcionCombo)cbocategoria.SelectedItem).Valor.ToString();
+                    row.Cells["Categoría"].Value = ((opcionCombo)cbocategoria.SelectedItem).Texto.ToString();
                     row.Cells["EstadoValor"].Value = ((opcionCombo)cboestado.SelectedItem).Valor.ToString();
                     row.Cells["Estado"].Value = ((opcionCombo)cboestado.SelectedItem).Texto.ToString();
                     Limpiar();
@@ -317,5 +317,7 @@ namespace CapaPresentacion
                 }
             }
         }
+
+        
     }
 }

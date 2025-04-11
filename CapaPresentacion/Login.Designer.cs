@@ -171,7 +171,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(178, 25);
             this.label5.TabIndex = 9;
-            this.label5.Text = "INICIAR SESION";
+            this.label5.Text = "INICIAR SESIÓN";
             // 
             // lblTiempoDeEspera
             // 

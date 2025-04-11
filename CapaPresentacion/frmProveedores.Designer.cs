@@ -209,7 +209,7 @@
             // 
             // Telefono
             // 
-            this.Telefono.HeaderText = "Telefono";
+            this.Telefono.HeaderText = "Teléfono";
             this.Telefono.MinimumWidth = 6;
             this.Telefono.Name = "Telefono";
             this.Telefono.ReadOnly = true;
@@ -251,9 +251,9 @@
             this.label6.Location = new System.Drawing.Point(14, 195);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 13);
+            this.label6.Size = new System.Drawing.Size(40, 13);
             this.label6.TabIndex = 67;
-            this.label6.Text = "Estado:";
+            this.label6.Text = "Estado";
             // 
             // cboestado
             // 
@@ -281,9 +281,9 @@
             this.txttelefonoo.Location = new System.Drawing.Point(10, 153);
             this.txttelefonoo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txttelefonoo.Name = "txttelefonoo";
-            this.txttelefonoo.Size = new System.Drawing.Size(52, 13);
+            this.txttelefonoo.Size = new System.Drawing.Size(49, 13);
             this.txttelefonoo.TabIndex = 64;
-            this.txttelefonoo.Text = "Telefono:";
+            this.txttelefonoo.Text = "Teléfono";
             // 
             // txtcorreo
             // 
@@ -321,7 +321,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 13);
             this.label4.TabIndex = 60;
-            this.label4.Text = "Correo Electronico";
+            this.label4.Text = "Correo Electrónico";
             // 
             // label3
             // 
@@ -332,7 +332,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 59;
-            this.label3.Text = "Razon Social";
+            this.label3.Text = "Razón Social";
             // 
             // label1
             // 

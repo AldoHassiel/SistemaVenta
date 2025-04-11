@@ -72,3 +72,4 @@ C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Release\Alydev.applica
 C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Release\CapaPres.61CA7C38.Up2Date
 C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Release\Alydev.exe
 C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Release\Alydev.pdb
+C:\Users\Aldo\Documents\SistemaVenta\CapaPresentacion\obj\Release\CapaPresentacion.frmReporteVentas.resources
