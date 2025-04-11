@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-# Alydev - Sistema de Gestión de Ventas
-
-**Alydev** es un sistema de ventas desarrollado con **Windows Forms en C#** y **SQL Server Express 2022**, diseñado para gestionar eficientemente inventario, ventas, compras, clientes, proveedores y usuarios con control de roles y permisos.
-
-## 🚀 Funcionalidades principales
-
-- Gestión de productos y categorías
-- Registro de ventas y compras
-- Control de stock
-- Administración de clientes y proveedores
-- Módulo de usuarios con roles y permisos
-- Reportes detallados de ventas y compras
-- Información del negocio
-
-## 📦 Requisitos para ejecutar el sistema
-
-- **Sistema Operativo:** Windows 10 o superior (64 bits)
-- **.NET Framework:** 4.7.2
-- **Base de datos:** SQL Server Express 2022 (instalado y configurado)
-- **Memoria RAM:** 4 GB mínimo (8 GB recomendados)
-- **Espacio en disco:** 100 GB libre mínimo
-
-> 💡 Este proyecto está en producción. Para colaborar o hacer cambios, dirígete a la rama `develop`.
-
-=======
 # AlyDev - Contribución y Desarrollo
 
 Este repositorio contiene el código fuente de **AlyDev**, un sistema de punto de venta desarrollado con **Windows Forms (.NET Framework)** y **SQL Server Express 2022**.
@@ -102,5 +76,4 @@ Una vez que se apruebe el Pull Request, se fusionará en la rama `develop`. Si e
 - Asegúrate de mantener tu rama develop siempre actualizada con los últimos cambios de la rama main para evitar conflictos de fusión.
 - Si encuentras un bug o un problema en el código, abre un issue para que pueda ser resuelto.
 - Si tu Pull Request es muy grande o cambia muchas funcionalidades, intenta dividirlo en múltiples PRs más pequeños para facilitar la revisión.
->>>>>>> d1ba4313081b379f65e03f7bd95bd3405a28dca6
 ---
